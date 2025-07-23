@@ -8,3 +8,10 @@ hcp_task.tgz:Zone.Identifier
 # Optional: If you want to keep the .gitkeep convention for empty ignored folders
 # /hcp_task/concatenated_data/.gitkeep
 # /hcp_task/subjects/.gitkeep
+
+# macOS system files
+.DS_Store
+._*
+
+# If regions.npy is a data file you don't want to track
+/hcp_task/regions.npy
