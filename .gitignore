@@ -1,10 +1,10 @@
 # Ignore the Zone.Identifier file
 hcp_task.tgz:Zone.Identifier
 
-# Ignore all contents within the hcp_task directory,
-# but allow specific files/subdirectories to be un-ignored
-hcp_task/*
-!hcp_task/.gitkeep # Optional: to keep the directory tracked if empty
-!hcp_task/scripts/ # Example: allow tracking of a 'scripts' subdirectory
-!hcp_task/*.py # Example: allow tracking of any Python files directly in hcp_task/
-!hcp_task/*.ipynb # Example: allow tracking of any Jupyter notebooks directly in hcp_task/
+# Ignore specific large data folders within hcp_task/
+/hcp_task/concatenated_data/
+/hcp_task/subjects/
+
+# Optional: If you want to keep the .gitkeep convention for empty ignored folders
+# /hcp_task/concatenated_data/.gitkeep
+# /hcp_task/subjects/.gitkeep
