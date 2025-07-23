@@ -15,3 +15,5 @@ hcp_task.tgz:Zone.Identifier
 
 # If regions.npy is a data file you don't want to track
 /hcp_task/regions.npy
+hcp_task/saved_models/
+hcp_task/evaluation_plots/
